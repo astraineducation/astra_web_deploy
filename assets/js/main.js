@@ -6,7 +6,7 @@
    ========================= */
 const SOCIAL_LINKS = {
   facebook:  "https://www.facebook.com/profile.php?id=61571321215933",
-  instagram: "https://www.instagram.com/", 
+  instagram: "https://www.instagram.com/astra_international_education?stkn=MWFtaGJoeHNqaHU0dw==", 
   twitter:   "https://twitter.com/", 
   tiktok:    "https://www.tiktok.com/"
 };
