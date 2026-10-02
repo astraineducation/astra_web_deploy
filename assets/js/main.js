@@ -6,9 +6,9 @@
    ========================= */
 const SOCIAL_LINKS = {
   facebook:  "https://www.facebook.com/profile.php?id=61571321215933",
-  instagram: "https://www.instagram.com/astra_international_education?stkn=MWFtaGJoeHNqaHU0dw==", 
-  twitter:   "https://twitter.com/", 
-  tiktok:    "https://www.tiktok.com/"
+  instagram: "https://www.instagram.com/astra_international_education",
+  twitter:   "#", /* TODO: Add Twitter / X profile URL */
+  tiktok:    "https://www.tiktok.com/@astra_in_education"
 };
 
 const header = document.getElementById("header");
@@ -146,7 +146,7 @@ if (slider) {
 
   function restart() {
     clearInterval(timer);
-    timer = setInterval(() => showSlide(current + 1), 1500);
+    timer = setInterval(() => showSlide(current + 1), 5000);
   }
 
   document.getElementById("nextSlide")?.addEventListener("click", () => {
